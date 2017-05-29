@@ -30,5 +30,4 @@
   unset($_SESSION['error_messages']);
   unset($_SESSION['field_errors']);
   unset($_SESSION['form_values']);
-*/
 ?>
