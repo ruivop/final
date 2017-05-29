@@ -7,7 +7,7 @@ $(document).ready(function() {
   testCanUpdate();
 });
 
-BASE_URL = '/~lbaw1622/final/';
+BASE_URL = 'http://gnomo.fe.up.pt/~lbaw1622/final/';
 
 var canUpdateuser = true;
 var canUpdateEvent = true;
