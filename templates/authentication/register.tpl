@@ -40,13 +40,13 @@
 
                     <label>Confirm Password *<span id="confirm_password_message"></span></label>
                     <input type="password" id="confirm_password" class="form-control" placeholder="Confirm the password" onkeyup="confirmPassword();" required>
-                    <br></br>
+                    <br><br>
 
                     <label>Profile picture</label>
                     <div>
                         <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
                         <label for="fileToUpload" class="btn btn-default">Upload photo</label>
-                        <input id="fileToUpload" name="fileToUpload" style="visibility:hidden;"type="file" accept="image/*">
+                        <input id="fileToUpload" name="fileToUpload" style="visibility:hidden;" type="file" accept="image/*">
                     </div>
 
                     <div class="modal-footer">

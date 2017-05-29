@@ -13,12 +13,12 @@
 
                 <form action="../../actions/authentication/login.php" method="post">
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email address / Username</label>
+                        <label for="email-login">Email address / Username</label>
                         <input type="text" name="email-login" class="form-control" id="email-login"
                                placeholder="Insert email or username" required>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
+                        <label for="password-login">Password</label>
                         <input type="password" name="password-login" class="form-control" id="password-login"
                                placeholder="Insert password"
                                required>
