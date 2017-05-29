@@ -66,7 +66,7 @@ function doajaxusercall(page, name, ascn) {
 	  var ind = 0;
 	  canUpdateuser = false;
 	  console.log('tenta');
-	  $.getJSON(BASE_URL + "api/search/searchusers.php", {page: page, serch: name, asc: ascn}, function(data) {console.log('consegue');
+	  $.getJSON(BASE_URL + "api/search/searchUsers.php", {page: page, serch: name, asc: ascn}, function(data) {console.log('consegue');
       $.each(data, function(i, asc) {
 		  ind += 1;
 		 $('#usersPesq .usercadssech').append(
