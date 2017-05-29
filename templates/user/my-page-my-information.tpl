@@ -53,11 +53,14 @@
                     </div>
 
                     <div class="col-sm-4 photo-personal-card">
-                            <img src="{$PHOTOURL}" class="img-responsive img-thumbnail" name="photo_url" style="height: 300px; overflow:hidden">
+                        {if $PHOTO_URL == NULL}
+                            <img src="../../resources/images/user.png" class="img-responsive img-thumbnail">
+                        {else}
+                            <img src="../../resources/images/image.jpeg" class="img-responsive img-thumbnail">
+                        {/if}
                         <div>
-                            <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
-                            <label for="fileToUpload" class="btn btn-default">Upload photo</label>
-                            <input id="fileToUpload" name="fileToUpload" style="visibility:hidden;"type="file" accept="image/*">
+                            <label id="upload-btn" for="files" class="btn btn-default">Upload photo</label>
+                            <input id="files" style="visibility:hidden;" type="file">
                         </div>
                     </div>
 

@@ -49,7 +49,7 @@ $transaction->setAmount($amount)
 	
 $nameReg = str_replace(' ', '-', $nameReg);
 $redirectUrls = new RedirectUrls();
-$redirectUrls->setReturnUrl($BASE_URL . 'actions/event/pay.php?eventId='.$eventId.'&typeId='.$typeId.'&quantity='.$quantity.'&nameReg='.$nameReg.'&nif='.$nif.'&email='.$email)
+$redirectUrls->setReturnUrl('http://gnomo.fe.up.pt/~lbaw1622/final/actions/event/pay.php?eventId='.$eventId.'&typeId='.$typeId.'&quantity='.$quantity.'&nameReg='.$nameReg.'&nif='.$nif.'&email='.$email)
 	->setCancelUrl($_SERVER['HTTP_REFERER']);
 	
 $payment = new Payment();

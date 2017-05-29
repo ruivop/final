@@ -41,7 +41,7 @@ else {
 
     $user_id = getUserIdFromUser($email);
 
-    createAuthenticatedUser($user_id, $username, $password, null);
+    createAuthenticatedUser($user_id, $username, $password);
 
     //Login - pode existir algum erro na base de dados
     if (isLoginCorrect($username, $password)) {
