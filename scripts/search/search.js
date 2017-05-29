@@ -65,7 +65,8 @@ function testCanUpdate() {
 function doajaxusercall(page, name, ascn) {
 	  var ind = 0;
 	  canUpdateuser = false;
-	  $.getJSON(BASE_URL + "api/search/searchusers.php", {page: page, serch: name, asc: ascn}, function(data) {
+	  console.log('tenta');
+	  $.getJSON(BASE_URL + "api/search/searchusers.php", {page: page, serch: name, asc: ascn}, function(data) {console.log('consegue');
       $.each(data, function(i, asc) {
 		  ind += 1;
 		 $('#usersPesq .usercadssech').append(
@@ -96,6 +97,7 @@ function doajaxusercall(page, name, ascn) {
 		}
 		canUpdateuser = true;
     });
+	console.log('finaliza');
 }
 
 function doajaxeventcall(page, name, free, paid, nameOrPrice, asci) {
@@ -120,7 +122,8 @@ function doajaxeventcall(page, name, free, paid, nameOrPrice, asci) {
 		  bNameOrPrice = 1;
 	  else
 		  bNameOrPrice = 2;
-	  $.getJSON(BASE_URL + "api/search/searchevents.php", {page: page, serch: name, free: bFree, paid: bPaid, nameOrPrice: bNameOrPrice, asc: asci}, function(data) {
+	  console.log('tentaevento');
+	  $.getJSON(BASE_URL + "api/search/searchevents.php", {page: page, serch: name, free: bFree, paid: bPaid, nameOrPrice: bNameOrPrice, asc: asci}, function(data) {console.log('consegurevento');
       $.each(data, function(i, asc) {
 		  ind += 1;
 		  var vfree = 'Free';
@@ -175,6 +178,7 @@ function doajaxeventcall(page, name, free, paid, nameOrPrice, asci) {
 		}
 		canUpdateEvent = true;
     });
+	console.log('finallizaevento');
 }
 
 function finMoreUsers(page) {
