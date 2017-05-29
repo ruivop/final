@@ -1,4 +1,4 @@
-BASE_URL = 'http://localhost/lbaw/proto/';
+BASE_URL = '/~lbaw1622/final/';
 
 var usersAdded = [];
 var guestsAdded = [];

@@ -2,7 +2,7 @@ var goodColor = "#66cc66";
 var badColor = "#ff6666";
 var color = "#fff7e9";
 var white = "#ffffff";
-BASE_URL = 'http://localhost/lbaw/proto/';
+BASE_URL = '/~lbaw1622/final/';
 var blockUsernameRegister = false;
 
 $(document).ready(function() {
