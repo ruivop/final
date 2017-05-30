@@ -1,5 +1,5 @@
 <div>
-    <span class="openbtn" onclick="openNav()"><span class="glyphicon glyphicon-align-justify"</span></span>
+    <span class="openbtn" onclick="openNav()"><span class="glyphicon glyphicon-align-justify"> </span>
 </div>
 
 
