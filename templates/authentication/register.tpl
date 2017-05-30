@@ -9,7 +9,6 @@
                 <h4 class="modal-title">Register</h4>
             </div>
             <div class="modal-body">
-                <p>
 
                 <form action="{$BASE_URL}actions/authentication/register.php" method="post"
                       enctype="multipart/form-data">
@@ -56,8 +55,7 @@
                     </div>
 
                 </form>
-
-                </p>
+				
                 <span>Already have an account?<a href="#" data-toggle="modal" data-dismiss="modal"
                                                  data-target="#modalLogin"> Log in</a> here.</span>
             </div>

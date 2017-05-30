@@ -9,7 +9,6 @@
                 <h4 class="modal-title">Login</h4>
             </div>
             <div class="modal-body">
-                <p>
 
                 <form action="../../actions/authentication/login.php" method="post">
                     <div class="form-group">
@@ -38,7 +37,6 @@
 
                 </form>
 
-                </p>
                 <span>Don't have an account?<a href="#" data-toggle="modal" data-dismiss="modal"
                                                data-target="#modalRegister"> Register</a> here.</span>
             </div>
