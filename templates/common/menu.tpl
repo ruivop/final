@@ -22,7 +22,7 @@
                               action="{$BASE_URL}pages/common/search.php#eventosPesq" method="get">
 
                             <div class="search-div">
-                                <input id="search serch-input" type="search" name="serched" class="form-control search-query"
+                                <input id="search" type="search" name="serched" class="form-control search-query"
                                        Placeholder="Search..." autocomplete="true"/>
                                 <span data-icon="&#xe000;" aria-hidden="true" class="search-btn">
                                     <input type="submit" class="searchsubmit" id="search-button" value="">
