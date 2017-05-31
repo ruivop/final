@@ -38,10 +38,12 @@ $price = $ticket['price'];
 
 $userid = getByUsername($username);
 try{
-	echo $userid[0]['user_id'];
-	echo $typeId;
+	$lastaded1 = buy_ticket($userid[0]['user_id'], $typeId);
+	$lastaded = $lastaded1['max'];
+	echo $userid[0]['user_id'] . '  ';
+	echo $typeId .  '  ';
+	echo $lastaded;
 	exit();
-	$lastaded = buy_ticket($userid[0]['user_id'], $typeId)['max'];
 } catch (Exception $e){
 	$lastaded = rand( 1000 , 10000 );
 }
