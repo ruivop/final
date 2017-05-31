@@ -37,11 +37,12 @@ $typeNameTicket = $ticket['ticket_type'];
 $price = $ticket['price'];
 
 $userid = getByUsername($username);
-try{
-	$lastaded1 = buy_ticket($userid[0]['user_id'], $typeId);
-	$lastaded = $lastaded1['max'];
 	echo $userid[0]['user_id'] . '  ';
 	echo $typeId .  '  ';
+$lastaded1 = buy_ticket($userid[0]['user_id'], $typeId);
+try{
+	
+	$lastaded = $lastaded1['max'];
 	echo $lastaded;
 	exit();
 } catch (Exception $e){
