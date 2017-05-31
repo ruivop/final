@@ -1,3 +1,4 @@
+{if $USERID != -1}
 <div>
     <span class="openbtn" onclick="openNav()"> <span class="glyphicon glyphicon-align-justify"> </span> </span>
 </div>
@@ -68,3 +69,4 @@
 
 
 </script>
+{/if}
