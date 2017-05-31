@@ -41,7 +41,7 @@
                         <div class="col-sm-11">
                             <a class="notification-content">
                                 You Were invited for 
-								<a href="{$BASE_URL}pages/common/user-page-information.php?id={$notification.event_id}">{$notification.name}</a>.
+								<a href="{$BASE_URL}pages/common/show-event-page.php?id={$notification.event_id}">{$notification.name}</a>.
                             </a>
                         </div>
                         <div class="notification-btn col-sm-1">
